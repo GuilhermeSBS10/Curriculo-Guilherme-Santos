@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Logo GS">
+  <defs>
+    <linearGradient id="border" x1="92" y1="68" x2="420" y2="444" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="letters" x1="150" y1="156" x2="360" y2="348" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BAE6FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="#070A12"/>
+  <rect x="72" y="72" width="368" height="368" rx="108" fill="#0F172A"/>
+  <rect x="72" y="72" width="368" height="368" rx="108" fill="none" stroke="url(#border)" stroke-width="18"/>
+  <text
+    x="256"
+    y="313"
+    text-anchor="middle"
+    fill="url(#letters)"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="150"
+    font-weight="800"
+    letter-spacing="-10"
+  >GS</text>
+  <path d="M160 352H352" stroke="url(#border)" stroke-width="12" stroke-linecap="round"/>
+</svg>

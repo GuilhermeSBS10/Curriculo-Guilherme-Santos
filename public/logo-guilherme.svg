@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Logo GS">
+  <defs>
+    <linearGradient id="bg" x1="82" y1="58" x2="430" y2="454" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="text" x1="150" y1="150" x2="370" y2="368" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CCFBF1"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#070A12"/>
+  <rect x="72" y="72" width="368" height="368" rx="112" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="98" y="98" width="316" height="316" rx="90" fill="#08111F" opacity="0.94"/>
+  <text
+    x="256"
+    y="308"
+    text-anchor="middle"
+    fill="url(#text)"
+    font-family="Inter, Arial, sans-serif"
+    font-size="146"
+    font-weight="800"
+    letter-spacing="-8"
+  >GS</text>
+  <path d="M154 350H358" stroke="url(#bg)" stroke-width="14" stroke-linecap="round"/>
+</svg>
