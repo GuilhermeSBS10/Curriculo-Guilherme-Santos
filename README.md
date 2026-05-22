@@ -1,73 +1,42 @@
 # Guilherme Santos | Currículo Digital
 
-Currículo digital interativo de **Guilherme dos Santos Barros Silva**, desenvolvido para apresentar trajetória, habilidades técnicas, projetos, certificados e formas de contato em uma experiência moderna, responsiva e profissional.
+Este repositório reúne o currículo digital interativo de **Guilherme dos Santos Barros Silva**, estudante de Ciência da Computação e desenvolvedor Full Stack em formação.
 
-O projeto foi criado com foco em recrutadores, oportunidades de estágio/desenvolvimento e apresentação profissional na web.
+A proposta do projeto é apresentar, de forma moderna e objetiva, minha trajetória profissional, habilidades técnicas, experiências, certificados, projetos e canais de contato em uma página web responsiva e visualmente profissional.
+
+## Sobre o projeto
+
+O currículo digital foi desenvolvido para funcionar como uma apresentação online completa, substituindo a limitação de um currículo tradicional em PDF por uma experiência mais dinâmica, visual e acessível.
+
+Nele, é possível conhecer meu perfil, entender minha evolução na área de tecnologia, visualizar certificados, acessar projetos publicados no GitHub e baixar a versão tradicional do currículo.
+
+## Objetivo
+
+O objetivo principal é transmitir profissionalismo, iniciativa, comunicação, liderança, criatividade e domínio técnico, reunindo em um único lugar as informações mais relevantes para recrutadores, empresas e pessoas interessadas no meu trabalho.
+
+## Destaques
+
+- Apresentação profissional com foto, resumo e frase de impacto
+- Seção sobre minha formação e perfil profissional
+- Lista de habilidades técnicas
+- Projetos com descrição, tecnologias e links
+- Galeria visual de certificados
+- Linha do tempo com experiências profissionais e conquistas
+- Download do currículo em PDF
+- Contatos diretos para email, WhatsApp, GitHub e LinkedIn
 
 ## Acesse
 
-Após o deploy no GitHub Pages, o site ficará disponível em:
+O projeto ficará disponível em:
 
 ```txt
 https://guilhermesbs10.github.io/Curriculo-Guilherme-Santos/
 ```
 
-## Tecnologias
+## Autor
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion
-- Lucide React
+**Guilherme dos Santos Barros Silva**  
+João Pessoa, PB  
 
-## Funcionalidades
-
-- Hero section com foto, frase de impacto e links profissionais
-- Seção sobre mim com perfil técnico e comportamental
-- Habilidades técnicas organizadas em badges
-- Cards de projetos com tecnologias e links para GitHub
-- Galeria visual de certificados com modal de visualização
-- Linha do tempo profissional e de experiências relevantes
-- Download direto do currículo em PDF
-- Contato por email, WhatsApp, GitHub e LinkedIn
-
-## Rodar localmente
-
-```bash
-npm install
-npm run dev
-```
-
-Para gerar a versão de produção:
-
-```bash
-npm run build
-```
-
-## Estrutura dos dados
-
-Os conteúdos principais ficam centralizados em arquivos TypeScript:
-
-- `src/data/habilidades.ts`
-- `src/data/projetos.ts`
-- `src/data/certificados.ts`
-- `src/data/experiencias.ts`
-
-Arquivos públicos ficam em:
-
-- `public/Curriculo_Guilherme_Santos.pdf`
-- `public/certificados/`
-- `public/foto-perfil.png`
-
-## Atualizações
-
-Para atualizar o site depois de alguma alteração:
-
-```bash
-git add .
-git commit -m "descrição da alteração"
-git push
-```
-
-O GitHub Actions faz o build e publica automaticamente no GitHub Pages.
+GitHub: [GuilhermeSBS10](https://github.com/GuilhermeSBS10)  
+LinkedIn: [Guilherme Santos](https://linkedin.com/in/guilherme-santos-998b61251/)
