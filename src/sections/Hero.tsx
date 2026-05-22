@@ -79,10 +79,12 @@ export function Hero() {
         >
           <div className="absolute inset-4 rounded-[2rem] bg-cyan-300/20 blur-3xl" />
           <div className="relative overflow-hidden rounded-[2rem] border border-white/[0.12] bg-white/[0.06] p-4 shadow-glow backdrop-blur-xl">
-            <div
-              className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-[length:112%] bg-[center_42%]"
-              style={{ backgroundImage: `url('${assetPath('guilherme-foto-hero.png?v=5')}')` }}
-            >
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-slate-900">
+              <img
+                alt="Foto de perfil de Guilherme Santos"
+                className="absolute inset-0 h-full w-full scale-110 object-cover object-[center_42%]"
+                src={assetPath('guilherme-foto-hero.png?v=6')}
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/86 via-slate-950/18 to-transparent" />
               <div className="pointer-events-none absolute inset-x-0 bottom-0 p-8">
                 <p className="text-sm font-semibold uppercase tracking-[0.28em] text-cyan-200">Full Stack</p>
