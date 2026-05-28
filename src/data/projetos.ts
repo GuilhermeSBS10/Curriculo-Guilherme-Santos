@@ -12,6 +12,7 @@ export const projetos: Projeto[] = [
     descricao:
       'SaaS criado para ajudar pequenas empresas e usuários individuais a organizarem finanças, acompanharem receitas, despesas e terem mais clareza sobre a saúde financeira.',
     tecnologias: ['React', 'TypeScript', 'SaaS', 'UI Design'],
+    github: 'https://github.com/GuilhermeSBS10/SmartCommerce',
     destaque: true,
   },
   {
@@ -19,6 +20,7 @@ export const projetos: Projeto[] = [
     descricao:
       'Sistema web de estudos com flashcards, permitindo criar matérias, cadastrar perguntas e respostas, editar conteúdos e acompanhar desempenho para melhorar a retenção do aprendizado.',
     tecnologias: ['React', 'JavaScript', 'Flashcards', 'UI Design'],
+    github: 'https://github.com/GuilhermeSBS10/Projeto---SmartCards',
     destaque: true,
   },
   {
