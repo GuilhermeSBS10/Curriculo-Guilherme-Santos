@@ -42,7 +42,7 @@ export function Projetos() {
                 <div className="mt-8">
                   {projeto.github ? (
                     <a
-                      className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-100 transition group-hover:text-white"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.08] px-4 py-2 text-sm font-semibold text-cyan-100 transition hover:border-cyan-200/40 hover:bg-cyan-200/10 hover:text-white"
                       href={projeto.github}
                       target="_blank"
                       rel="noreferrer"
