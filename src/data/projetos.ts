@@ -18,7 +18,7 @@ export const projetos: Projeto[] = [
     nome: 'SmartCards - Plataforma de Estudos',
     descricao:
       'Sistema web de estudos com flashcards, permitindo criar matérias, cadastrar perguntas e respostas, editar conteúdos e acompanhar desempenho para melhorar a retenção do aprendizado.',
-    tecnologias: ['React', 'TypeScript', 'Flashcards', 'UI Design'],
+    tecnologias: ['React', 'JavaScript', 'Flashcards', 'UI Design'],
     destaque: true,
   },
   {
