@@ -30,7 +30,7 @@ O objetivo principal é transmitir profissionalismo, iniciativa, comunicação, 
 O projeto ficará disponível em:
 
 ```txt
-https://guilhermesbs10.github.io/Curriculo-Guilherme-Santos/
+https://curriculo-guilherme-santos.vercel.app/
 ```
 
 ## Autor
